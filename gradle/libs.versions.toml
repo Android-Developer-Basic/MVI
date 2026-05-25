@@ -20,6 +20,8 @@ composeMultiplatform = "1.11.0"
 composeMultiplatformMaterial = "1.9.0"
 composeMultiplatformMaterialIcons = "1.7.3"
 napier = "2.7.1"
+mockk = "1.13.10"
+turbine = "1.1.0"
 
 
 [libraries]
@@ -51,6 +53,9 @@ androidx-material-icons-extended = { group = "androidx.compose.material", name =
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 napier = { module = "io.github.aakira:napier", version.ref = "napier" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

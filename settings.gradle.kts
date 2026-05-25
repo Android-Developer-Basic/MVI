@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "MVI Intro"
 include(":common")
 include(":mvvm")
+include(":uistate")

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M3 Light Palette -->
+    <color name="m3_primary">#6750A4</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_primary_container">#EADDFF</color>
+    <color name="m3_on_primary_container">#21005D</color>
+
+    <color name="m3_secondary">#625B71</color>
+    <color name="m3_on_secondary">#FFFFFF</color>
+    <color name="m3_secondary_container">#E8DEF8</color>
+    <color name="m3_on_secondary_container">#1D192B</color>
+
+    <color name="m3_surface">#FEF7FF</color>
+    <color name="m3_on_surface">#1D1B20</color>
+    <color name="m3_surface_variant">#E7E0EB</color>
+    <color name="m3_on_surface_variant">#49454F</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
