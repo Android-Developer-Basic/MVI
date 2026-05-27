@@ -1,0 +1,26 @@
+<resources>
+    <style name="Theme.MVIIntro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/m3_primary</item>
+        <item name="colorOnPrimary">@color/m3_on_primary</item>
+        <item name="colorPrimaryContainer">@color/m3_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/m3_on_primary_container</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/m3_secondary</item>
+        <item name="colorOnSecondary">@color/m3_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/m3_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/m3_on_secondary_container</item>
+
+        <!-- Surface colors -->
+        <item name="android:windowBackground">@color/m3_surface</item>
+        <item name="colorSurface">@color/m3_surface</item>
+        <item name="colorOnSurface">@color/m3_on_surface</item>
+        <item name="colorSurfaceVariant">@color/m3_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_on_surface_variant</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

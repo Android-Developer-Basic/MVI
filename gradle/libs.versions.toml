@@ -16,9 +16,11 @@ kotlin = "2.3.21"
 coroutines = "1.11.0"
 dateTime = "0.8.0"
 immutable = "0.4.0"
-composeMultiplatform = "1.11.0"
+composeMultiplatform = "1.10.2"
 composeMultiplatformMaterial = "1.9.0"
 composeMultiplatformMaterialIcons = "1.7.3"
+composeMultiplatformViewmodel = "2.10.0"
+composeHotReload = "1.1.1"
 napier = "2.7.1"
 mockk = "1.13.10"
 turbine = "1.1.0"
@@ -61,6 +63,7 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
+kotlin-composeHotReload = { id = "org.jetbrains.compose.hot-reload", version.ref = "composeHotReload" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlin-multiplatformAndroidLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 

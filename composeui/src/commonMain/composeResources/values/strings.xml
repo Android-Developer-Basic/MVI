@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="content_title">Content</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="username">Login</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_unknown">Unknown error</string>
+</resources>
