@@ -24,7 +24,8 @@ composeHotReload = "1.1.1"
 napier = "2.7.1"
 mockk = "1.13.10"
 turbine = "1.1.0"
-
+commonStateMachine = "4.0.2"
+mockery = "3.3.0"
 
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
@@ -35,6 +36,9 @@ kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutin
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 kotlinx-coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "coroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+
+statemachine-common = { group = "com.motorro.commonstatemachine", name = "commonstatemachine", version.ref = "commonStateMachine" }
+statemachine-coroutines = { group = "com.motorro.commonstatemachine", name = "coroutines", version.ref = "commonStateMachine" }
 
 compose-multiplatform-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "composeMultiplatform" }
 compose-multiplatform-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "composeMultiplatform" }
@@ -66,4 +70,6 @@ kotlin-composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "com
 kotlin-composeHotReload = { id = "org.jetbrains.compose.hot-reload", version.ref = "composeHotReload" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlin-multiplatformAndroidLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+mockery = { id = "dev.mokkery", version.ref = "mockery" }
 
